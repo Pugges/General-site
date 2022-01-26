@@ -1,0 +1,259 @@
+/*=====================
+    General
+=====================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*=====================
+    Section one
+=====================*/
+
+#section-one {
+    height: 100vh;
+    background: url(1.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-one_wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 2;
+}
+
+.section-one_item {
+    margin: 30px;
+}
+
+#section-one div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+#section-one p {
+    font:bold 16px 'Lato';
+    color: white;
+}
+
+#section-one h1 {
+    font: bold 44px 'Lato';
+    color: yellow;
+}
+
+#explore {
+    color: white;
+    border: 1px solid yellow;
+    padding: 15px 70px;
+    font: bold 20px 'Lato';
+    background: transparent;
+}
+
+#section-one button:hover {
+    cursor: pointer;
+}
+
+#section-one img {
+    width: 8vh;
+}
+
+#down {
+    font: bold 50px 'Lato';
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 15px 70px;
+    background: transparent;
+}
+
+#down:hover {
+    cursor: pointer;
+}
+
+/*=====================
+    Section two
+=====================*/
+
+#section-two {
+    height: 70vh;
+    font: bold 20px 'Lato';
+}
+
+#section-two_first-block {
+    border-bottom: 2px solid yellow;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+#section-two img {
+    width: 5vh;
+    margin: 2px;
+}
+
+#section-two_second-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#section-two_item-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.section-two_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+#section-two h1 {
+    text-align: center;
+    font-style: bold;
+    margin: 40px;
+}
+
+#section-two_desk {
+    text-align: center;
+    color:rgb(231, 231, 71);
+    margin: 40px;
+}
+
+.section-two_item p {
+    color: black;
+    margin: 40px;
+    text-align: center;
+}
+
+.section-two_item-num {
+    color:rgb(231, 231, 71);
+    font: 20px;
+    margin: 5px;
+}
+
+.section-two_item-num:after {
+    content: "";
+    margin: 10px;
+    border: 2px solid rgb(231, 231, 71);
+}
+
+#section-two button {
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+    border: none;
+    background-color: transparent;
+    font: bold 20px 'Lato';
+}
+
+#section-two button:hover {
+    border: 1px solid rgb(231, 231, 71);
+    cursor: pointer;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40vh;
+    margin-right: 50vh;
+}
+
+#logo font {
+    color: rgb(231, 231, 71);
+}
+
+/*=====================
+    Section three
+=====================*/
+
+#section-three {
+    height: 55vh;
+    background: url(3.jpeg) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-three_wrapper {
+    background-color: yellow;
+    width: 100%;
+    height: 55vh;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 2;
+}
+
+#section-three p {
+    z-index: 3;
+    font: italic bold 30px 'Lato';
+    margin: 10px;
+}
+
+#section-three p:last-child {
+    font: italic bold 20px 'Lato';
+    color: rgb(148, 148, 148);
+}
+
+/*=====================
+    Section four
+=====================*/
+
+#section-four {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-four h2 {
+    font: bold 30px 'Lato';
+    margin: 10px;
+}
+
+#section-four p {
+    font: bold 20px 'Lato';
+    color: rgb(231, 231, 71);
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2em;
+    width: 50%;
+    margin: 60px;
+}
+
+.photos img {
+    width: 200px;
+}
+
+/*=====================
+    Footer
+=====================*/
+
+footer {
+    height: 10vh;
+    background-color: rgb(231, 231, 71);
+}
